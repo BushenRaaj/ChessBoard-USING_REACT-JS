@@ -1,0 +1,40 @@
+.chess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .icon{
+        font-size: 40px;
+    }
+  }
+  
+  
+  .d{
+      
+    background-color: rgba(38, 102, 37, 0.601);
+    height:80px;
+    width: 80px;
+  }
+  .w{
+    background-color: white;
+    height: 80px;
+    width:80px;
+  }
+  table{
+    border-collapse: collapse;
+    border:3px solid black;
+    margin:20px 0px 0px 450px;
+
+    td {
+        width: 120px;
+        height: 130px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 2rem; 
+      }
+
+  }
+
+
+  
